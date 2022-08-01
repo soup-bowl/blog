@@ -16,6 +16,10 @@ $background-color:      #29132e !default;
 $background-head-color: #321450 !default;
 $brand-color:           #de004e !default;
 
+$alternate-color: #baf9ff !default;
+$alternate-color-dark: #0f93bf !default;
+$alternate-color-darker: #003b4e !default;
+
 $grey-color:       #f887ff !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
@@ -96,7 +100,7 @@ pre, code,
 		letter-spacing: -1px;
 		margin-left: 1rem;
 		margin-bottom: 0;
-		color: $grey-color;
+		color: $alternate-color;
 		font-size: $base-font-size;
 	}
 
@@ -106,11 +110,11 @@ pre, code,
 		border: none;
 
 		.page-link {
-			color: $grey-color;
+			color: $alternate-color;
 		}
 
 		.menu-icon > svg {
-			fill: $grey-color-light;
+			fill: $alternate-color;
 		}
 
 		@include media-query($on-palm) {

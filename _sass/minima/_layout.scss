@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-	background-color: $background-head-color;
+	background-color: $alternate-color-dark;
 	min-height: $spacing-unit * 1.865;
 
 	// Positioning context for the mobile navigation icon
@@ -48,7 +48,7 @@
 		position: absolute;
 		top: 9px;
 		right: $spacing-unit / 2;
-		background-color: $background-color;
+		background-color: $alternate-color-darker;
 		border: 1px solid $grey-color-light;
 		border-radius: 5px;
 		text-align: right;
