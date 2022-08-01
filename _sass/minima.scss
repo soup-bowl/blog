@@ -77,6 +77,8 @@ pre, code,
 }
 
 .site-header {
+	filter: drop-shadow(0 2px 5px #000);
+
 	.site-title {
 		font-family: $header-font-family;
 		font-size: $base-font-size;
@@ -130,6 +132,7 @@ pre, code,
 
 .page-content {
 	padding: 0;
+	background: url("memphis.svg") repeat;
 
 	.article-image {
 		text-align: center;
@@ -146,6 +149,7 @@ pre, code,
 
 .site-footer {
 	font-family: $header-font-family;
+	filter: drop-shadow(0 2px 5px #000);
 
 	.copyright {
 		color: $text-color;
