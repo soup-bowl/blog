@@ -2,20 +2,21 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !default;
+$base-font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !default;
 $base-font-size:   21px !default;
 $base-font-weight: 200 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$header-font-family: 'Permanent Marker', cursive, sans-serif;
 
 $spacing-unit:     30px !default;
 
 $text-color:            #fff !default;
-$background-color:      #0c0c0c !default;
-$background-head-color: #0f0f0f !default;
-$brand-color:           #ef1a1a !default;
+$background-color:      #29132e !default;
+$background-head-color: #321450 !default;
+$brand-color:           #de004e !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #f887ff !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -55,9 +56,13 @@ body {
 	overflow-x: hidden;
 }
 
-h1, h2, h3, h4, strong {
-	font-weight: 700;
+h1, h2, h3, h4 {
+	font-family: $header-font-family;
 }
+
+/*strong {
+	font-family: $header-font-family;
+}*/
 
 hr {
 	margin: 25px 0;
@@ -73,8 +78,8 @@ pre, code,
 
 .site-header {
 	.site-title {
+		font-family: $header-font-family;
 		font-size: $base-font-size;
-		font-weight: 700;
 
 		&, &:visited {
 			color: $grey-color-light;
@@ -83,6 +88,7 @@ pre, code,
 
 	.site-subtitle {
 		@include relative-font-size(1.625);
+		font-family: $header-font-family;
 		font-weight: 500;
 		line-height: $base-line-height * $base-font-size * 2.25;
 		letter-spacing: -1px;
@@ -98,7 +104,7 @@ pre, code,
 		border: none;
 
 		.page-link {
-			color: $brand-color;
+			color: $grey-color;
 		}
 
 		.menu-icon > svg {
@@ -139,7 +145,7 @@ pre, code,
 }
 
 .site-footer {
-	font-weight: 500;
+	font-family: $header-font-family;
 
 	.copyright {
 		color: $text-color;
@@ -227,6 +233,10 @@ pre, code,
 		padding-top: 20px;
 	}
 
+	a {
+		color: $text-color;
+	}
+
 	.post-featured {
 		background-size: cover;
 		background-position: 50%;
@@ -249,8 +259,8 @@ pre, code,
 }
 
 .home-banner {
+	background: url("https://labs.soupbowl.io/miami/vice-miami.svg") no-repeat center center;
 	background-size: cover;
-	background-position: 50%;
 	text-align: center;
 	margin-bottom: 15px;
 }
