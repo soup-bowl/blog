@@ -2,6 +2,7 @@ tasks:
   - init: |
       find . -type d -exec chmod 777 {} \;
       docker-compose pull
+      brew install hugo
     command: |
       docker-compose up
 
