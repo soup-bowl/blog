@@ -1,12 +1,17 @@
 tasks:
-  - init: |
+  - name: Jekyll
+    init: |
       find jekyll -type d -exec chmod 777 {} \;
       docker-compose -f jekyll/docker-compose.yml pull
-      brew install hugo
-    command: |
-      docker-compose -f jekyll/docker-compose.yml up
+    command: docker-compose -f jekyll/docker-compose.yml up
+    openMode: split-right
+  - name: Hugo
+    init: brew install hugo
+    command: (cd hugo && hugo server)
+    openMode: split-left
 
 ports:
   - port: 4000
     name: Jekyll
-    description: Jekyll autobuild instance.
+  - port: 1313
+    name: Hugo
