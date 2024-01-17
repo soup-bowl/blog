@@ -4,6 +4,7 @@ date: "2018-04-11T00:00:00Z"
 tags:
 - Raspberry Pi
 title: Smarting up my Car with a Raspberry Pi, Crankshaft & OpenAuto
+slug: smarting-up-my-car-with-a-raspberry-pi-crankshaft-openauto
 ---
 
 I drive a 2014 Kia Rio. I have no legitimate complaints about it, as it works brilliantly as a daily driver. Sure, I would love an MX5 mk1 (Miata NA) but at my age (23) it serves a purpose of getting me around with no issue. However, it does come with a rather boring radio setup.
@@ -27,8 +28,7 @@ For what sounds like a rather large uptake, the resources needed for the project
 *   Official 7″ Touch screen.
 *   SmartPi enclosure.
 
-![](/assets/img/IMG_20180410_084557.webp)
-{: .article-image}
+{{< figure src="/assets/img/IMG_20180410_084557.webp" >}}
 
 Setting up the software was an absolute doddle. Simply [grab the IMG file from the Crankshaft website](http://getcrankshaft.com/), and install it to your Raspberry Pi’s MicroSD card (I recommend using [Etcher](https://etcher.io/)). Configuration files are kept in the FAT partition, so if you need to change settings you can do so easily.
 
@@ -36,8 +36,7 @@ Once I had set the software up and put together the screen and Pi in a case, it 
 
 ## The Car
 
-![](/assets/img/IMG_20180411_163056.webp)
-{: .article-image}
+{{< figure src="/assets/img/IMG_20180411_163056.webp" >}}
 
 Placed the unit on the dashboard, hooked up a Micro USB cable to the power from a 12V USB adapter, connect up my phone and job done – working Android Auto, basically.
 

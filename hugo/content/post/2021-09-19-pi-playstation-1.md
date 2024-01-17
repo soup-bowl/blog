@@ -8,6 +8,7 @@ tags:
 - Guides
 - Raspberry Pi
 title: 'I built: PlayStation 1, Pi Powered!'
+slug: pi-playstation-1
 ---
 
 **And this completes my PlayStation console collection… If we ignore the PS5.**
@@ -49,8 +50,7 @@ _\* You can go for a higher RAM, but emulation mostly requires more powerful CPU
 
 ## :book: The Plan
 
-![Purchased PS One console before modifications.](/assets/img/IMG-20201125-WA0002-1024x557.webp)
-{: .article-image}
+{{< figure src="/assets/img/IMG-20201125-WA0002-1024x557.webp" title="Purchased PS One console before modifications" >}}
 
 Dead PSOne from a bodged-up mod chip job.
 
@@ -75,8 +75,7 @@ Unfortunately I found with my spacers that the Pi was an extremely snug fit, whi
 
 ## :construction: Hardware, the complex bit
 
-![Eagle view of the modified PS One with the circuits exposed.](/assets/img/IMG_20201221_122256-1024x768.webp)
-{: .article-image}
+{{< figure src="/assets/img/IMG_20201221_122256-1024x768.webp" title="Eagle view of the modified PS One with the circuits exposed" >}}
 
 Top view of the circuit. Pi is upside down for a future fan addition, and the power port (unpictured) is in-line with the port gap.
 

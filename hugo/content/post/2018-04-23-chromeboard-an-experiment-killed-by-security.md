@@ -4,6 +4,7 @@ date: "2018-04-23T00:00:00Z"
 tags:
 - Development
 title: Chromeboard, an Experiment Killed by Security
+slug: chromeboard-an-experiment-killed-by-security
 ---
 
 You wouldn’t be wrong if you’ve come to the assumption that I’ve stopped supporting [Chromeboard](https://blog.soupbowl.io/chromeboard/). [You can see from the commit log](https://github.com/soup-bowl/Chromeboard/commits) that I haven’t made a significant change since March of last year. This was largely unintentional, but there was a main reason as to why I chose to unofficially abandon the extension – I call it ‘[Issue 9 of Death](https://github.com/soup-bowl/Chromeboard/issues/9)‘.

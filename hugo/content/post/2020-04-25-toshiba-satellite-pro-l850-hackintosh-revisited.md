@@ -6,6 +6,7 @@ tags:
 - Hackintosh
 - Mac
 title: Toshiba Satellite Pro L850, Hackintosh Revisited
+slug: toshiba-satellite-pro-l850-hackintosh-revisited
 ---
 
 [Back in 2018]({% post_url 2018-08-08-hackintoshing-a-toshiba-satellite-pro-l850-1uj %}) I turned my laptop into a Hackintosh device, running High Sierra. I had a donor MacBook mid-2010 that I used to run TonyMac tools to get Hackintosh working. It was a fun if complicated process of trial and error, but the result was always impressive – a craptop unexpectedly booting macOS.
@@ -126,8 +127,7 @@ Native backlighting took some jiggling to get working. [RehabMan on TonyMac has 
 
 ## :thinking: The Verdict
 
-![](/assets/img/Screenshot-2020-04-25-at-11.43.50.webp)
-{: .article-image}
+{{< figure src="/assets/img/Screenshot-2020-04-25-at-11.43.50.webp" >}}
 
 I’ve actually been finding the performance on this base-spec (inc. original hard drive) runs really well on MacOS. There are slowdowns, and I have not tried gaming on this machine, but nothing more than I would expect from a **very old** machine. Plus Apple tends to care for their ageing old Intel machines really well, so I’m not _too_ surprised.
 
@@ -137,8 +137,7 @@ So, I’m gonna keep it!
 
 ## Catalina?
 
-![](/assets/img/Screenshot-2020-08-16-at-23.21.18-1.webp)
-{: .article-image}
+{{< figure src="/assets/img/Screenshot-2020-08-16-at-23.21.18-1.webp" >}}
 
 The upgrade to Catalina was a sucess! However, some changes were needed first.
 

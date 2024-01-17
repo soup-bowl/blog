@@ -5,6 +5,7 @@ image: /assets/img/sadcat.webp
 tags:
 - Blog
 title: State of my Open Source Contrbutions
+slug: state-of-open-source
 ---
 
 **To start off, this is not a "I'm quitting" post - don't worry. But this should clear up why I'm 'ignoring' some actions.**
@@ -15,9 +16,7 @@ So this is a message to say - I'm slowing down. I need to take some time to tend
 
 However a bigger challenge has popped up with a loved one of mine, and will mean that they will need some care for a while. And with that I have decided that for my own health and to dedicate the right amount of time to it, my outside-work coding activites must slow down.
 
-{:refdef: class="article-image"}
-![](/assets/img/sadcat.webp)
-{: refdef}
+{{< figure src="/assets/img/sadcat.webp" >}}
 
 **This is by no means an end**, but just a warning that I will be slowing down, and may be unavilable for some periods of time for the foreseeable.
 

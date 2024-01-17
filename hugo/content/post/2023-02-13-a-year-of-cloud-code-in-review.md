@@ -5,6 +5,7 @@ tags:
 - Review
 - Development
 title: A Year of Cloud Coding in Review
+slug: a-year-of-cloud-code-in-review
 ---
 
 **Over the past year, roughly 90% of my non-professional coding time was done using a Cloud IDE.**
@@ -19,9 +20,7 @@ Things have come a long, long way since my [**Cloud9**](https://aws.amazon.com/c
 
 ## The Challenges
 
-{:refdef: class="article-image"}
-![](/assets/img/Screenshot_2023-02-13_22-22-06.webp)
-{: refdef}
+{{< figure src="/assets/img/Screenshot_2023-02-13_22-22-06.webp" >}}
 
 Since a lot of my projects are small-scale and of generally a single intention, it was really easy to move into a cloud development layout. I like to maintain **ephemeral workspaces**. This means I want to be able to log-on, do my code, then destroy the environment. Each time I start, I want a brand new environment and a blank slate. This is generally what **Gitpod** and **GitHub Codespaces** push as the optimal way to work. Since I already started converting a lot of these to **Docker** a few years back, it was generally quite easy to get them configured - the codespace generally just starts the Docker (compose) setup.
 
@@ -33,9 +32,7 @@ Gitpod also has a pretty neat setup for supporting workspace setups, that they c
 
 ## Configuration
 
-{:refdef: class="article-image"}
-![](/assets/img/Screenshot_2023-02-13_22-27-26.webp)
-{: refdef}
+{{< figure src="/assets/img/Screenshot_2023-02-13_22-27-26.webp" >}}
 
 As someone who switches Linux distributions faster than clothes, I certainly don't find configuration a chore. But in my professional experience this can quickly build up until you end up sending significant time configuring workspaces for different projects. This is one of the great things that can be achieved with cloud development - you configure once (or rarely), and you get fresh setups each time.
 

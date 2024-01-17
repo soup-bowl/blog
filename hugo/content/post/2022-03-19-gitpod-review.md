@@ -6,15 +6,14 @@ tags:
 - Review
 - Development
 title: Bored Waiting for GitHub Codespaces? Gitpod has Your Back
+slug: gitpod-review
 ---
 
 I've been on the waiting list for GitHub Codespaces for nearly 2 years now, and I haven't seen anything from GitHub about it. At this point, I'm even wondering if the Codespaces initiative was some kind of desert mirage, and actually doesn't exist at all!
 
 But bored of waiting for something I'm losing the plot over, I saw what alternatives are available. In comes **[Gitpod][gp]** to save the day.
 
-{:refdef: class="article-image"}
-![Purchased PS One console before modifications.](/assets/img/gitpod-screenshot.webp)
-{: refdef}
+{{< figure src="/assets/img/gitpod-screenshot.webp" >}}
 
 ## What's the Point in (GitHub) Codespaces and Gitpod Anyway?
 

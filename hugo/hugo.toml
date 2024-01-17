@@ -1,1 +1,6 @@
-theme = 'ananke'
+title = 'Soupbowl'
+
+theme = 'soup'
+
+[permalinks]
+  post = "/:year/:month/:slug/"

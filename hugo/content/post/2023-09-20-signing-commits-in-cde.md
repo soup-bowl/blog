@@ -4,6 +4,7 @@ date: "2023-09-20T00:00:00Z"
 tags:
 - Development
 title: How I sign my commits in Gitpod
+slug: signing-commits-in-cde
 ---
 
 **For absolutely no good reason, I sign all my commits to GitHub.**
@@ -39,9 +40,7 @@ This will return a huge string. This is the entire contents of your GPG director
 
 Now we can head over to Gitpod, and [go into the Environmental Settings](https://gitpod.io/user/variables). Create the variable 'GNUGPG', with the access '*/*', and paste the base64 string response from above as the value.
 
-{:refdef: class="article-image"}
-![](/assets/img/Screenshot_from_2023-09-20 19-55-38.webp)
-{: refdef}
+{{< figure src="/assets/img/Screenshot_from_2023-09-20 19-55-38.webp" >}}
 
 Nice - Gitpod now technically has a GPG key.
 

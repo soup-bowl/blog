@@ -7,4 +7,5 @@ _site/
 .jekyll-metadata
 
 # Hugo
+node_modules/
 public/

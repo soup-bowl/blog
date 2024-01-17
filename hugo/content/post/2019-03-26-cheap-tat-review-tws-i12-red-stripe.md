@@ -4,6 +4,7 @@ date: "2019-03-26T00:00:00Z"
 tags:
 - Gadgets
 title: Cheap Tat Review – TWS i12 (red stripe)
+slug: cheap-tat-review-tws-i12-red-stripe
 ---
 
 find the concept of wireless apple earbuds really funny. Endless memes of how the cheapo version was to just cut the cord, and a little jump was enough to lose an expensive piece of equipment. My Anker Soundbuds were enough for me, but after seeing the buzz on Reddit over TWS clones, I had to give them a try.
