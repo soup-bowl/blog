@@ -1,20 +1,10 @@
 tasks:
-  - name: Jekyll
-    init: |
-      find jekyll -type d -exec chmod 777 {} \;
-      docker-compose -f jekyll/docker-compose.yml pull
-    command: docker-compose -f jekyll/docker-compose.yml up
-    openMode: split-right
-  - name: Hugo
-    init: |
+  - init: |
       sudo wget -q -O /opt/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_0.121.2_linux-amd64.deb
       sudo dpkg -i /opt/hugo.deb
       sudo rm /opt/hugo.deb
-    command: (cd hugo && hugo server)
-    openMode: split-left
+    command: hugo server
 
 ports:
-  - port: 4000
-    name: Jekyll
   - port: 1313
     name: Hugo
