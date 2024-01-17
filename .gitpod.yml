@@ -6,7 +6,10 @@ tasks:
     command: docker-compose -f jekyll/docker-compose.yml up
     openMode: split-right
   - name: Hugo
-    init: brew install hugo
+    init: |
+      sudo wget -q -O /opt/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_extended_0.121.2_linux-amd64.deb
+      sudo dpkg -i /opt/hugo.deb
+      sudo rm /opt/hugo.deb
     command: (cd hugo && hugo server)
     openMode: split-left
 
