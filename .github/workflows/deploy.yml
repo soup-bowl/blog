@@ -25,11 +25,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: 📦 Compile Site
+      - name: Setup Hugo
         run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+          mkdir /opt/hugo
+          curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" --output /opt/hugo.tar.gz
+          sudo tar -xvzf /opt/hugo.tar.gz -C /opt
+          sudo mv /opt/hugo /usr/local/bin
+        env:
+          HUGO_VERSION: 0.121.2
+      
+      - name: 📦 Compile Site
+        run: hugo
 
       - name: 🚛 Publish Site
         uses: cloudflare/pages-action@v1.3.0
@@ -38,5 +44,5 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           projectName: soupbowl
-          directory: _site
+          directory: public
           wranglerVersion: '3'
