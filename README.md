@@ -7,6 +7,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/soup-bowl/blog/badge)](https://www.codefactor.io/repository/github/soup-bowl/blog)
 [![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/blog.soupbowl.io)](https://observatory.mozilla.org/analyze/blog.soupbowl.io)
 
+> [!IMPORTANT]  
+> This has been merged into the [main soupbowl site repository](https://github.com/soup-bowl/soup-bowl.github.io).
+
 My blog website, statically built with [Hugo][j].
 
 **This is a personal blog - Pull Requests will not be accepted.**
